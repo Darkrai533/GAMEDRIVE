@@ -1,0 +1,87 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    margin-top: 40px;
+    text-align: center; /* Center the section heading */
+}
+
+.instruction {
+    font-size: 1.2em; /* Slightly larger font for instruction */
+    margin: 10px 0; /* Margin for spacing */
+}
+
+.games {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.game {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    width: 80%;
+    text-align: center;
+}
+
+.game:hover {
+    transform: scale(1.05); /* Scale up on hover */
+    background-color: #2e2e2e; /* Change background color on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.small-boxes {
+    display: flex;
+    justify-content: center; /* Center the small boxes */
+    margin-top: 20px; /* Add some space above the small boxes */
+}
+
+.small-box {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    border-radius: 5px;
+    width: 300px; /* Width of the small boxes */
+    height: 00px; /* Height of the small boxes */
+    display: flex;
+    align-items: center; /* Center text vertically */
+    justify-content: center; /* Center text horizontally */
+    margin: 10px; /* Space between the small boxes */
+    text-align: center;
+    transition: transform 0.3s, background-color 0.3s; /* Transition for animations */
+}
+
+.small-box:hover {
+    transform: scale(1.05); /* Scale up on hover */
+    background-color: #2e2e2e; /* Change background color on hover */
+}
+
+.contact-info {
+    text-align: center; /* Center the contact information */
+    margin: 20px 0; /* Add some space above and below the contact info */
+    font-size: 1.2em; /* Adjust font size for better visibility */
+}
